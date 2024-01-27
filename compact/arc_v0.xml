@@ -105,8 +105,8 @@
   <aerogel>
     <!-- /detectors/detector/aerogel/module -->
     <module
-      material="Aerogel_PFRICH"
-      vis="aerogel_vis"
+      material="C4F10_PFRICH"
+      vis="gas_vis"
       thickness="AEROGEL_THICKNESS"
       />
   </aerogel>
