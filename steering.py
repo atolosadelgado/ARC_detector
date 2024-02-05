@@ -49,17 +49,19 @@ SIM.filter.mapDetFilter["ARC_DETECTORNAME"] = "opticalphotons"
 # Particle gun settings: pions with fixed energy, random direction
 SIM.numberOfEvents = 1
 SIM.enableGun = True
-#SIM.gun.energy = "50*GeV"
-SIM.gun.particle = "pi+"
-# SIM.gun.multiplicity = 1
+SIM.gun.energy = "50*GeV"
+SIM.gun.particle = "e+"
+SIM.gun.multiplicity = 1
 SIM.gun.position = "0 0 -20*cm"
 SIM.gun.direction = "0 0 1"
 # SIM.gun.momentumMin = 0.1*GeV
 # SIM.gun.momentumMax = 0.11*GeV
 SIM.compactFile = "./compact/arc_v0.xml"
-# SIM.outputFile = "arcsim_pi+_0.1GeV.root"
+SIM.outputFile = "arcsim_e+_50GeV_key4hep.root"
 SIM.runType = "batch"
 #SIM.runType = "qt"
-# SIM.macroFile ='vis.mac'
+
+#SIM.outputConfig.forceDD4HEP = True
+#SIM.macroFile ='vis.mac'
 
 
