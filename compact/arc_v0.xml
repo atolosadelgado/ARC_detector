@@ -53,7 +53,7 @@
     name="ARC_DETECTORNAME"
     type="ARCTYPE"
     gas="C4F10_PFRICH"
-    material="CarbonFibStr"
+    material="Vacuum"
     vis_vessel="vessel_vis"
     vis_gas="gas_vis"
     readout="ARC_HITS"
