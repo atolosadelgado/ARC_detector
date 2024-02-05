@@ -140,3 +140,4 @@
 # /vis/ogl/set/exportFormat png
 # /vis/ogl/set/transparency true
 # /vis/ogl/export
+#/process/inactivate msc
