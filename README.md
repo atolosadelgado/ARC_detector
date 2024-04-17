@@ -225,7 +225,7 @@ Documentation of DD4hep,
 Example of RICH detector implemented in DD4hep
 * Proximity Focusing RICH: https://github.com/AIDASoft/DD4hep/tree/master/examples/OpticalTracker
 
-Documentation of ARC,
+Documentation and presentations about ARC,
 * 1-July-2021 FCC week https://indico.cern.ch/event/995850/contributions/4406336/attachments/2274813/3864163/ARC-presentation.pdf
 * 23-June-2022 Workshop on detector for FCCee https://indico.cern.ch/event/1165167/contributions/4927647/attachments/2468337/4233740/ARC-update.pdf
 * 6-October-2022 ECFA Workshop https://indico.desy.de/event/33640/contributions/128392/attachments/77681/100501/ARC_Presentation_ECFA_Workshop_DESY_6th_October_2022.pdf
@@ -233,3 +233,11 @@ Documentation of ARC,
 * 25-January-2023 FCC workshop https://indico.cern.ch/event/1176398/contributions/5208403/attachments/2581656/4452921/ARC_Presentation_FCC_Workshop_Krakow_25th_January_2023.pdf
 * 28-March-2023 Discussion about ARC implementation in DD4hep: https://indico.cern.ch/event/1266428/
 * 8-June-2023 FCC week https://indico.cern.ch/event/1202105/contributions/5396830/attachments/2662099/4612055/fccweek23_atd_v7.pdf
+* 12-July-2023 Fullsim meeting (M. Basso) https://indico.cern.ch/event/1304946/contributions/5488302/attachments/2682619/4654996/230712_Basso_FCC-Det-FS-Meeting_ARC-reco.pdf
+* 28-August-2023 Fullsim meeting https://indico.cern.ch/event/1318491/contributions/5548508/attachments/2703694/4712665/ARC_IntegrationCLD_230823.pdf
+* 24-October-2023 Fullsim meeting (M. Tat) https://indico.cern.ch/event/1339694/contributions/5639529/attachments/2739715/4765514/ARC_Presentation_FCC_ImplementationDiscussion_24th_October_2023.pdf
+* 24-October-2023 Fullsim meeting https://indico.cern.ch/event/1339694/contributions/5639532/attachments/2739682/4765470/ARC_updates_231024.pdf
+* 1-February-2024 FCC workshop. https://indico.cern.ch/event/1307378/contributions/5729665/attachments/2789636/4867784/fccphysweek24_ARC_reco_atd_240130.pdf
+
+FCCee fullsim documentation
+* https://fcc-ee-detector-full-sim.docs.cern.ch/
