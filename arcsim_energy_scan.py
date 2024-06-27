@@ -3,11 +3,11 @@ energy_list = [2,5,7,10,15,50]
 import os
 
 multiplicity = 100
-particle = 'pi+'
+particle_list = [ 'e+', 'pi+', 'mu+', 'kaon+','proton']
 
-for energy_GeV in energy_list:
-    outputFile = f'arcsim_{particle}_{energy_GeV}GeV.root'
-    cmd = f"nohup ddsim --steeringFile steering.py --gun.energy '{energy_GeV}*GeV' --gun.multiplicity {multiplicity} --gun.particle '{particle}' --outputFile {outputFile} &"
+for particle in particle_list:
+   for energy_GeV in energy_list:
+       outputFile = f'arcsim_{particle}_{energy_GeV}GeV.root'
+       cmd = f"nohup ddsim --steeringFile steering.py --gun.energy '{energy_GeV}*GeV' --gun.multiplicity {multiplicity} --gun.particle '{particle}' --outputFile {outputFile} &"
 
-    os.system( cmd )
-
+       os.system( cmd )
