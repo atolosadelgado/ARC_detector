@@ -57,7 +57,7 @@ SIM.gun.direction = "0 0 1"
 # SIM.gun.momentumMin = 0.1*GeV
 # SIM.gun.momentumMax = 0.11*GeV
 SIM.compactFile = "./compact/arc_v0.xml"
-SIM.outputFile = "arcsim_e+_50GeV_key4hep.root"
+SIM.outputFile = "arcsim_e+_50GeV.root"
 SIM.runType = "batch"
 #SIM.runType = "qt"
 

@@ -212,6 +212,36 @@ Particle type must be provided as a string, the full list of possible particles 
 
 If even these options are not enough, Geant4 provides the so-called GPS, which can produce primary particles in a more sophisticated way (for example, histogram sampling)
 
+# ARC Gaudi algorithm
+
+To compile the Gaudi algorithm, we have first to source the key4hep stack, then compiled, then we setup the environmental variables using `k4_local_repo` command, and check if our local algorithm is visible to Gaudi using `k4run --list | grep ARCalg`
+
+
+```
+source /cvmfs/sw-nightlies.hsf.org/key4hep/setup.sh
+cmake -B build -S . -D CMAKE_INSTALL_PREFIX=install
+cmake --build build -- -j3 install
+k4_local_repo
+k4run --list | grep ARCalg
+```
+
+If we see something like the following, it means the local installation worked
+```
+$ k4run --list | grep ARC
+  ARCalg (from ARCalg),
+		 path: /home/alvarotd/work/ARC_detector/install/python/ARCalg/__init__.py
+```
+
+We can create first a simulation file as:
+```
+ddsim --steeringFile steering.py -N 10
+```
+
+Now we can run the gaudi algorithm as follows:
+```
+k4run ARCalg/test/runARCalg.py
+```
+
 # Useful links
 
 Documentation of DD4hep,
